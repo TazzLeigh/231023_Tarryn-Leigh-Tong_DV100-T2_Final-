@@ -1,0 +1,24 @@
+/* Nav Bar */
+.logo-img {
+    width: 160px; 
+    height: 50px; 
+    margin-right: 10px; 
+  }
+
+.logo-wrapper {
+    margin-right: 10px; /* Adjust the margin as needed */
+  }
+/* Nav Bar */
+
+/* Carousel */
+  header{
+    width: 100%;
+    height: 300px;
+    background-position: center;
+    background-color: lightgrey;
+    color: white;
+  }
+/* Carousel */
+
+/* Shapes */
+/* Shapes */
