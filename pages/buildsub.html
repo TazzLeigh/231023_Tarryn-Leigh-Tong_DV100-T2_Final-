@@ -19,10 +19,10 @@
   <body>
 
 <!-- NAV BAR -->
-    <nav class="navbar navbar-expand-lg navbar-light bg-transparent">
+  <nav class="navbar navbar-expand-lg navbar-light" style="background-color: #74C85D;">
         <div class="logo-wrapper">
             <a class="navbar-brand" href="/index.html">
-                <img src="/assets/The Sub Hub-logos_transparent.png" alt="Hub-logos_transparent" class="logo-img">
+                <img src="/assets/Sub Hub.png" alt="Hub-logos_transparent" class="logo-img">
             </a>
         </div>
         
@@ -38,7 +38,7 @@
               <a class="nav-link" href="/pages/subofmonth.html">Sub of the Month</a>
             </li> 
             <li class="nav-item">
-              <a class="nav-link" href="/pages/subofmonth.html">About Us</a>
+              <a class="nav-link" href="/pages/aboutus.html">About Us</a>
             </li> 
             
             
@@ -50,150 +50,214 @@
         </form>
       </nav>
 <!-- NAV BAR -->
-
+<h1 class="text-center">BUILD YOUR CUSTOM SUB!</h1>
 <div class="container-fluid">
   <div class="row">
-<!-- BREAD SELECTION -->
+    <!-- BREAD SELECTION -->
     <div class="col-3">
       <h4>Bread Type</h4>
       <div class="card">
         <div class="card-body">
           <h5 class="card-title">Choose an option:</h5>
           <div class="form-check">
-            <input class="form-check-input" type="radio" name="exampleRadios" id="radioOption1" value="option1" checked>
-            <label class="form-check-label" for="radioOption1">
-              Option 1
+            <input class="form-check-input" type="radio" name="baseRadio" id="white" value="white" data-cost="10" checked>
+            <label class="form-check-label" for="white">
+              White -(R10.00)
             </label>
           </div>
           <div class="form-check">
-            <input class="form-check-input" type="radio" name="exampleRadios" id="radioOption2" value="option2">
-            <label class="form-check-label" for="radioOption2">
-              Option 2
+            <input class="form-check-input" type="radio" name="baseRadio" id="brown" value="brown" data-cost="15">            <label class="form-check-label" for="brown">
+              Brown - (R15.00)
             </label>
           </div>
           <div class="form-check">
-            <input class="form-check-input" type="radio" name="exampleRadios" id="radioOption3" value="option3">
-            <label class="form-check-label" for="radioOption3">
-              Option 3
+            <input class="form-check-input" type="radio" name="baseRadio" id="wholewheat" value="wholewheat" data-cost="20">
+            <label class="form-check-label" for="wholewheat">
+              Wholewheat - (R20.00)
+            </label>
+          </div>
+          <div class="form-check">
+            <input class="form-check-input" type="radio" name="baseRadios" id="glutenfree" value="glutenfree" data-cost="30">
+            <label class="form-check-label" for="glutenfree">
+              Gluten Free bread - (R30.00)
             </label>
           </div>
         </div>
       </div>
     </div>
-<!-- BREAD SELECTION -->
-<!--TOPPINGS-->
+    <!-- BREAD SELECTION -->
+    <!-- TOPPINGS -->
     <div class="col-3">
       <h4>Toppings</h4>
       <div class="card">
         <div class="card-body">
           <h5 class="card-title">Choose an option:</h5>
           <div class="form-check">
-            <input class="form-check-input" type="radio" name="exampleRadios" id="radioOption1" value="option1" checked>
-            <label class="form-check-label" for="radioOption1">
-              Option 1
+            <input class="form-check-input" type="checkbox" name="toppings" id="tomatoonnion" value="tomatoonnion" data-cost="3">
+            <label class="form-check-label" for="tomatoonnion">
+              Tomato & Onion - (R3.00)
             </label>
           </div>
           <div class="form-check">
-            <input class="form-check-input" type="radio" name="exampleRadios" id="radioOption2" value="option2">
-            <label class="form-check-label" for="radioOption2">
-              Option 2
+            <input class="form-check-input" type="checkbox" name="toppings" id="saladmix" value="salad" data-cost="3">
+            <label class="form-check-label" for="saladmix">
+              Salad Mix - (R3.00)
             </label>
           </div>
           <div class="form-check">
-            <input class="form-check-input" type="radio" name="exampleRadios" id="radioOption3" value="option3">
-            <label class="form-check-label" for="radioOption3">
-              Option 3
+            <input class="form-check-input" type="checkbox" name="toppings" id="bacon" value="bacon" data-cost="3">
+            <label class="form-check-label" for="bacon">
+              Bacon - (R3.00)
+            </label>
+          </div>
+          <div class="form-check">
+            <input class="form-check-input" type="checkbox" name="toppings" id="chicken" value="chicken" data-cost="3">
+            <label class="form-check-label" for="chicken">
+              Chicken - (R3.00)
+            </label>
+          </div>
+          <div class="form-check">
+            <input class="form-check-input" type="checkbox" name="toppings" id="pastrami" value="pastrami" data-cost="3">
+            <label class="form-check-label" for="pastrami">
+              Pastrami - (R3.00)
+            </label>
+          </div>
+          <div class="form-check">
+            <input class="form-check-input" type="checkbox" name="toppings" id="ham" value="ham" data-cost="3">
+            <label class="form-check-label" for="ham">
+              Ham - (R3.00)
+            </label>
+          </div>
+          <div class="form-check">
+            <input class="form-check-input" type="checkbox" name="toppings" id="mushrooms" value="mushrooms" data-cost="3">
+            <label class="form-check-label" for="mushrooms">
+              Mushrooms - (R3.00)
             </label>
           </div>
         </div>
       </div>
-        </div>
-<!--TOPPINGS-->
-</div>
-<div class="row">
-<!--SAUCE-->
-  <div class="col-3">
-    <h4>Toppings</h4>
-    <div class="card">
-      <div class="card-body">
-        <h5 class="card-title">Choose an option:</h5>
-        <div class="form-check">
-          <input class="form-check-input" type="radio" name="exampleRadios" id="radioOption1" value="option1" checked>
-          <label class="form-check-label" for="radioOption1">
-            Option 1
-          </label>
-        </div>
-        <div class="form-check">
-          <input class="form-check-input" type="radio" name="exampleRadios" id="radioOption2" value="option2">
-          <label class="form-check-label" for="radioOption2">
-            Option 2
-          </label>
-        </div>
-        <div class="form-check">
-          <input class="form-check-input" type="radio" name="exampleRadios" id="radioOption3" value="option3">
-          <label class="form-check-label" for="radioOption3">
-            Option 3
-          </label>
+    </div>
+    <!-- TOPPINGS -->
+    <!-- SAUCE -->
+    <div class="col-3">
+      <h4>Sauce</h4>
+      <div class="card">
+        <div class="card-body">
+          <h5 class="card-title">Choose an option:</h5>
+          <div class="form-check">
+            <input class="form-check-input" type="radio" name="sauces" id="mayo" value="mayo" data-cost="3">
+            <label class="form-check-label" for="mayo">
+              Mayo - (R3.00)
+            </label>
+          </div>
+          <div class="form-check">
+            <input class="form-check-input" type="radio" name="sauces" id="mustard" value="mustard" data-cost="3">
+            <label class="form-check-label" for="mustard">
+              Mustard - (R3.00)
+            </label>
+          </div>
+          <div class="form-check">
+            <input class="form-check-input" type="radio" name="sauces" id="ketchup" value="ketchup" data-cost="3">
+            <label class="form-check-label" for="ketchup">
+              Ketchup - (R3.00)
+            </label>
+          </div>
+          <div class="form-check">
+            <input class="form-check-input" type="radio" name="sauces" id="bbq" value="bbq" data-cost="3">
+            <label class="form-check-label" for="bbq">
+              BBQ - (R3.00)
+            </label>
+          </div>
+          <div class="form-check">
+            <input class="form-check-input" type="radio" name="sauces" id="ranch" value="ranch" data-cost="3">
+            <label class="form-check-label" for="ranch">
+              Ranch - (R3.00)
+            </label>
+          </div>
+          <div class="form-check">
+            <input class="form-check-input" type="radio" name="sauces" id="chilli" value="chilli" data-cost="3">
+            <label class="form-check-label" for="chilli">
+              Chilli - (R3.00)
+            </label>
+          </div>
         </div>
       </div>
     </div>
+    <!-- SAUCE -->
+    <!-- DRINKS -->
+    <div class="col-3">
+      <h4>Beverages</h4>
+      <div class="card">
+        <div class="card-body">
+          <h5 class="card-title">Choose an option:</h5>
+          <div class="form-check">
+            <input class="form-check-input" type="radio" name="beverage" id="soda" value="soda" data-cost="8">
+            <label class="form-check-label" for="soda">
+              Soda - (R8.00)
+            </label>
+          </div>
+          <div class="form-check">
+            <input class="form-check-input" type="radio" name="beverage" id="juice" value="juice" data-cost="10">
+            <label class="form-check-label" for="juice">
+              Juice - (R10.00)
+            </label>
+          </div>
+          <div class="form-check">
+            <input class="form-check-input" type="radio" name="beverage" id="water" value="water" data-cost="5">
+            <label class="form-check-label" for="water">
+              Water - (R5.00)
+            </label>
+          </div>
+          <div class="form-check">
+            <input class="form-check-input" type="radio" name="beverage" id="icetea" value="icetea" data-cost="15">
+            <label class="form-check-label" for="icetea">
+              Ice Tea - (R15.00)
+            </label>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- DRINKS -->
   </div>
-<!--SAUCE--> 
+  <div class="row">
+    <!-- CHECKOUT -->
+    <div class="col-4">
+      <h4>Your Order</h4>
+      <div class="card">
+        <div class="card-body">
+          <h6>Name your Sub</h6>
+          <input type="text" class="form-control" placeholder="Name Your Sub" >
+        </div>
+        <div class="card-footer" id="realTimeCost">
+          <h6>CurrentTotal: R <span id="orderTotal">0.00</span></h6>
+        </div>
+        <a href="/pages/checkout.html" class="btn btn-outline-primary btn-sm d-flex justify-content-center align-items-center">Add to Cart</a>
+        <a href="/pages/checkout.html" class="btn btn-outline-primary btn-sm d-flex justify-content-center align-items-center">Go to Checkout</a>
+      </div>
+    </div>
+    <!-- CHECKOUT -->
+  </div>
+</div>
+<!-- CONTAINER END -->
 
-<!--DRINKS-->
-<div class="col-3">
-  <h4>Beverages</h4>
-  <div class="card">
-    <div class="card-body">
-      <h5 class="card-title">Choose an option:</h5>
-      <div class="form-check">
-        <input class="form-check-input" type="radio" name="exampleRadios" id="radioOption1" value="option1" checked>
-        <label class="form-check-label" for="radioOption1">
-          Option 1
-        </label>
+<!--Footer-->
+<footer>
+  <div class="container">
+    <div class="row">
+      <div class="col-12">
+        <ul class="social-media">
+          <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+          <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+          <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+        </ul>
       </div>
-      <div class="form-check">
-        <input class="form-check-input" type="radio" name="exampleRadios" id="radioOption2" value="option2">
-        <label class="form-check-label" for="radioOption2">
-          Option 2
-        </label>
-      </div>
-      <div class="form-check">
-        <input class="form-check-input" type="radio" name="exampleRadios" id="radioOption3" value="option3">
-        <label class="form-check-label" for="radioOption3">
-          Option 3
-        </label>
+    </div>
+    <div class="row">
+      <div class="col-12">
+        <p>&copy; 2023 The Sub Hub. All rights reserved.</p>
       </div>
     </div>
   </div>
-</div>
-<!--DRINKS-->
-
-</div>
-
-<div class="row">
-  <!--CHECKOUT-->
-<div class="col-6">
-  <h4>Your Order</h4>
-  <div class="card">
-    <div class="card-body">
-      <h6>Name your Sub</h6>
-      <input class="form-control" type="text" placeholder="Name your sub">
-    </div>
-    <a href="/pages/checkout.html" class="btn btn-outline-primary btn-sm d-flex justify-content-center align-items-center">Confirm Order</a>
-  </div>
-</div>
-<!--CHECKOUT-->
-  
-</div>
-  
-
-
-
-
-</div>
-    
-    
-  
+<!--Footer END--></footer>
 </body>
 </html>
