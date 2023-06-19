@@ -86,4 +86,5 @@ displayOrder = () => {
     `;
   }
 
-  total.innerHTML = "R".
+  total.innerHTML = "R"
+}
